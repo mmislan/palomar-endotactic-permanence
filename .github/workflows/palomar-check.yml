@@ -18,4 +18,4 @@ jobs:
       request_id: endoprecheck
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"comparator_config_path":"comparator.json","authorization_relationship":"maintainer"}'
+      options: '{"comparator_config_path":"comparator.json","authorization_relationship":"I am a responsible author or maintainer"}'
