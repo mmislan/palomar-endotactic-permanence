@@ -1,0 +1,13 @@
+Endotactic permanence formalization
+Original development and formalization: Michael Mislan.
+
+The affine certificate, uniform activity, convex plateau and analytic support
+sources adapt the Apache-2.0 OpenAI development at:
+https://github.com/openai/math
+commit adc7f1241b42e322a6451854ab7e4b4c146bf78a
+upstream directory lean/OAI/Analysis/MassAction
+
+Vendored files include adaptations for this proof and Lean's module system.
+UPSTREAM_PROVENANCE.json records original upstream file hashes.
+The Apache-2.0 licence is included in LICENSE. Mathlib and its dependencies
+retain their own upstream licences. AI assistance is described in formalization.yaml.

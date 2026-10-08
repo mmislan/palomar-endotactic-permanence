@@ -1,0 +1,120 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "Uniform permanence of endotactic reaction networks with measurable rates",
+    "description": "Uniform permanence is established for finite endotactic reaction networks with arbitrary real complexes and measurable rate coefficients bounded above and away from zero almost everywhere. Each positive stoichiometric compatibility class contains a compact convex forward-invariant absorbing set, with entry times uniform over compact sets of initial conditions and all rate histories within a fixed rate box. Global positive Carathéodory solutions exist and are unique, and an exponential continuous-dependence estimate holds for initial data under a common rate history on a compact positive region. The result resolves the Endotactic Permanence Conjecture stated as Conjecture 1.3 by Johnston, Pantea and Donnell (https://arxiv.org/abs/1412.4662), using an ordinary-endotactic drift estimate together with the finite affine barrier construction from OpenAI’s work on weakly reversible networks.",
+    "authors": [
+      "Michael Mislan"
+    ],
+    "responsible_maintainers": [
+      "Michael Mislan"
+    ],
+    "license": "Apache-2.0"
+  },
+  "classification": {
+    "arxiv": [
+      "math.DS",
+      "q-bio.MN"
+    ],
+    "msc2020": [
+      "34A12",
+      "34D23",
+      "92C42"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Uniform permanence of endotactic reaction networks with measurable rates",
+      "authors": [
+        "Michael Mislan"
+      ],
+      "type": "paper",
+      "relationship": "formalizes",
+      "location": "paper/main.pdf",
+      "note": "Main permanence theorem (Theorem 2.2) and initial-data continuous dependence; exact declaration correspondence is recorded in CLAIM_MAP.md."
+    },
+    {
+      "title": "Persistence and permanence of mass-action and power-law dynamical systems",
+      "authors": [
+        "Gheorghe Craciun",
+        "Fedor Nazarov",
+        "Casian Pantea"
+      ],
+      "type": "paper",
+      "relationship": "background",
+      "note": "Standard endotacticity and permanence context; precise bibliography and conjecture correspondence are in the companion manuscript.",
+      "identifier": "arXiv:1010.3050",
+      "location": "https://arxiv.org/abs/1010.3050"
+    },
+    {
+      "title": "A computational approach to persistence, permanence, and endotacticity of biochemical reaction systems",
+      "authors": [
+        "Matthew D. Johnston",
+        "Casian Pantea",
+        "Pete Donnell"
+      ],
+      "type": "paper",
+      "relationship": "background",
+      "identifier": "arXiv:1412.4662",
+      "location": "https://arxiv.org/abs/1412.4662",
+      "note": "Conjecture 1.3, Definition 3.1(1) and Definition 2.3 identify the named conjecture and its mathematical conventions; see CLAIM_MAP.md."
+    }
+  ],
+  "status": {
+    "scope": "Challenge has independent explicit definitions of the exp/log monomial, reaction field, ordinary endotacticity, stoichiometric class, positive rate box, a.e. admissibility and the AC/a.e.-ODE solution predicate. uniform_permanence has quantifier order exists K, forall compact Q, exists T, forall x0 in Q, forall k; positivity is concluded for the constructed global solution and required only of competing solutions in uniqueness and invariance. continuous_dependence compares initial states for the same history in one compact positive region. Empty reaction families and zero-dimensional states are included.",
+    "sorry_count": 0,
+    "sorry_in_definitions": 0,
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "framework": "Codex",
+        "models": [],
+        "tool_setup": "AI-assisted formal proof port, source-reading review, manuscript editing, module-system migration and local verification."
+      }
+    ],
+    "notes": "Complete historical model identifiers are unavailable. AI-assisted proof development, review and preparation are disclosed here; human expert review is not asserted."
+  },
+  "review": {
+    "status": "agent-reviewed",
+    "notes": "The two selected declarations passed strict Lean 4.35.0-rc2 compilation, independent Challenge/Solution comparison and all six bundled kernels. verification/local-check.json records the checked source hashes and an extract of the saved local results. No human mathematical review is asserted."
+  },
+  "fidelity": {
+    "divergences": "The compared permanence theorem strengthens the usual nonnegative-complex formulation to arbitrary signed real complexes. exp/log monomials agree with ordinary mass action on positive states for natural complexes. Uniqueness for the signed field is among positive competitors. Rate measurability and bounds are imposed only almost everywhere on forward time; negative-time values are unrestricted. Periodic forcing, equilibrium, feedback and example-specific conclusions remain conventional and are excluded from the compared declarations."
+  },
+  "alignment": {
+    "namespace": "EndotacticSubmission",
+    "statements": [
+      {
+        "source": "Companion manuscript, main permanence theorem",
+        "lean": "EndotacticSubmission.uniform_permanence",
+        "module": "Challenge",
+        "status": "adapted",
+        "note": "Compared with the matching Solution declaration; source-bound local evidence is recorded in verification/local-check.json."
+      },
+      {
+        "source": "Companion manuscript, initial-data continuous dependence",
+        "lean": "EndotacticSubmission.continuous_dependence",
+        "module": "Challenge",
+        "status": "adapted",
+        "note": "Compared with the matching Solution declaration; source-bound local evidence is recorded in verification/local-check.json."
+      }
+    ]
+  },
+  "related_formalizations": [
+    {
+      "title": "OpenAI mass-action affine certificates and uniform activity",
+      "relationship": "adapts",
+      "url": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/MassAction",
+      "revision": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "note": "Pinned Apache-2.0 source for the finite affine certificate and uniform activity construction. Vendored files adapt this construction to the present proof and module system. UPSTREAM_PROVENANCE.json records original upstream hashes.",
+      "id": "https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/MassAction"
+    }
+  ]
+}

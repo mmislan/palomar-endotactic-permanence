@@ -1,0 +1,623 @@
+{
+  "description": "Extract of saved local verification evidence; not a new run or a Palomar cloud report.",
+  "recorded_run": "linux-registry-20261008T230627",
+  "source_receipt_sha256": "533b425f12123120bce5dde57952eb14a1894bea6eb59a02147b2810f75ae97b",
+  "source_input_manifest_sha256": "d991f62b67a1c7391e35c733f74319de3a1fb53d851273dcdc5360b133e87492",
+  "status": "PASS",
+  "toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "selected_theorems": [
+    "EndotacticSubmission.uniform_permanence",
+    "EndotacticSubmission.continuous_dependence"
+  ],
+  "kernels": [
+    "Lean paranoid",
+    "lean4lean",
+    "nanoda",
+    "con-leche",
+    "con-ron",
+    "Lean default"
+  ],
+  "comparator_exit_code": 0,
+  "comparator_stdout": "Running Lean paranoid kernel on solution\nLean paranoid kernel accepts the solution\nRunning lean4lean kernel on solution\nchecked 47147 declarations\nlean4lean kernel accepts the solution\nRunning nanoda kernel on solution\nnanoda kernel accepts the solution\nRunning con-leche kernel on solution\ncon-leche: accepted 47146 declarations (--verified)\ncon-leche kernel accepts the solution\nRunning con-ron kernel on solution\ncon-ron: accepted 47146 declarations (--verified)\ncon-ron kernel accepts the solution\nRunning Lean default kernel on solution\nLean default kernel accepts the solution\nYour solution is okay!\n",
+  "comparator_stderr": "con-leche: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)\ncon-leche: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul\ncon-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)\ncon-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul\n",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "scope": "Both selected declarations and their exact checked proof closure. Presentation-only edits followed this run.",
+  "files": [
+    {
+      "path": "Challenge.lean",
+      "sha256": "7aff16137e851972846a9f56e4d37738b268c6698bda5ba47249b2d780c75c94",
+      "lines": 122,
+      "proof_holes": 2
+    },
+    {
+      "path": "proofs/EndotacticPermanence/ActiveMinimumDrift.lean",
+      "sha256": "66013adbb8dd0ff19951b0cdc4c4efd81001557858c7927c68fd5e87aa5efa02",
+      "lines": 41,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/AffineGeometry.lean",
+      "sha256": "d82281c68c74674de49e3ad451f82968f07a34ecc10f12f0da5f617fd369d1a6",
+      "lines": 23,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/AffineObservable.lean",
+      "sha256": "0f76687ef4aaabd65bbc69cbbcea30a998de993e5089d588557352b0a8e397a0",
+      "lines": 69,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/AlmostEverywhereRates.lean",
+      "sha256": "53b77171733f3e3730c3a3b6b41a86c3bb94a877572845469deb8504635e41e9",
+      "lines": 127,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/BarrierFamily.lean",
+      "sha256": "4db6da7b7855f4effcbcf2067e19cd2f9a247f6f8c014500a503f7edf45d411c",
+      "lines": 63,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/BarrierInvariance.lean",
+      "sha256": "a25b3a9f883ca82473b1fc4cd98422dd3fc214120df4a174d57776875641d9ab",
+      "lines": 29,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/BoundedField.lean",
+      "sha256": "b229e6d8f5b56b99ae97b39648f1cd53baa1073f7a9998b900c0707b9f97127b",
+      "lines": 115,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/CappedMinimumAC.lean",
+      "sha256": "9d732fac73215b95d2cc118cf4f51a65f110e6271ef748d1ab9641fec4ca113f",
+      "lines": 47,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/CaratheodoryCurve.lean",
+      "sha256": "bd467fca6751fe7dafe5c4770c9ba31bf2cca2a5328551c483a334c988f63fbb",
+      "lines": 68,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/CaratheodoryInterface.lean",
+      "sha256": "c6ea0f436269e52f6cdaffad312fdb93f5cc1c88d8f5a326949311e6211e9faf",
+      "lines": 72,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/ClampedMassAction.lean",
+      "sha256": "874d6719c976104b92acada846d891862cf5c0821468c1ce769a59102851f785",
+      "lines": 72,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/ClassPreservation.lean",
+      "sha256": "252f2dd6e3aa6c48173c1fbb336fba0c3cde3c00ce9886599a2a5265e51d9769",
+      "lines": 48,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/CompactCoverage.lean",
+      "sha256": "2e7f5dd967bc42169724faffd7053f095d06a36253d1b693d09fc3164a5236c5",
+      "lines": 56,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/CompactPermanence.lean",
+      "sha256": "10a229d501902ba01700fe985ea54328503c298037d2cf1bea72986d8110aa9f",
+      "lines": 100,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/ContinuousDependence.lean",
+      "sha256": "aa97beb6100f954b08da98cdf0bc43e027a27522db7615d2040080b7c7a7e80a",
+      "lines": 113,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/DyadicCoverage.lean",
+      "sha256": "17c4341f13c37ceed19680966eeb807d3eb94d4123b5b64334d9a6d2bc8b5930",
+      "lines": 42,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/EndotacticBarrier.lean",
+      "sha256": "99de806cc7a2a7e037c0a8e607043ac58f4d5a34019a00d63a95adc3b470db05",
+      "lines": 118,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/EndotacticTrapping.lean",
+      "sha256": "2412d62f7816b66170cf864c95917e9fa19e0b39ce5a69b27896e67deba38c4e",
+      "lines": 103,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/EndotacticWitness.lean",
+      "sha256": "59d76daf720bb1dbeda7f3774c927ee5437345501465733d9482e3a3567c04b1",
+      "lines": 51,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/FamilyPlateau.lean",
+      "sha256": "785e3b8606a5bd6261168db2b9baaa47495ccbe3aa6968318857bd385159c7bf",
+      "lines": 151,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/FiniteEntryAC.lean",
+      "sha256": "8bec2f6e69798d519f49822e2392d5b43f714f362559673d03c40fa2ed7d3129",
+      "lines": 47,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/FiniteMinAC.lean",
+      "sha256": "a07c4a0eed8de6ee3b6305c7b4c4b769792af4724fe183205f1320c7970e7109",
+      "lines": 80,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/ForwardUniqueness.lean",
+      "sha256": "4de134435a41b5aeb308000cb81fb51c0a8f403d30ef35e325acfc4b7b15227a",
+      "lines": 63,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/GeometricFamily.lean",
+      "sha256": "087b087691dec109e842c0e7dba767f27a2b807e27a255746155b1fe51781f06",
+      "lines": 98,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/GlobalBoundedCurve.lean",
+      "sha256": "6a15e8b81ba8fac15bddd20751d14c70e5e0580e23d9a6a91585c4a3a51eed2c",
+      "lines": 65,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/GlobalMassAction.lean",
+      "sha256": "ea09ff52ff38de4ccc23139cd14104908dae829300c65f18c9413b35a4a9ca87",
+      "lines": 40,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/ActivityLimits.lean",
+      "sha256": "7566767d5a14612670c8cd15db99265ba19dc6f4324d39be899525f576e93a72",
+      "lines": 116,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineCertificates.lean",
+      "sha256": "02cd7d9662206a7d79aefcf62a9cd483c2f28ef609e4dcabebaf092377756414",
+      "lines": 168,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineExistence.lean",
+      "sha256": "34543a47375009d51df081ceb140a0c7ff7fa8a7cdddf7c5d1f5566be68a758e",
+      "lines": 39,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineGlobalGluing.lean",
+      "sha256": "7cf47bc4298cb3d124e6126ffd2597ac05fc5241b8dc641aa50d9fc7a31ef719",
+      "lines": 314,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineGluing.lean",
+      "sha256": "9d00a1f1ef7e542981cbce72c7919ba0d6fa69118e7b35a4dbde8f9dfc2271ce",
+      "lines": 181,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineLayers.lean",
+      "sha256": "034864c1570dcfd120246a3068da5f53cdedb6aa68825a1a776bf41ef74f2f73",
+      "lines": 271,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineLocalBand.lean",
+      "sha256": "c695f64b34c20e8e2d6f53abbf2d670d425c49beb618bcf33838052346ed40e3",
+      "lines": 105,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineLocalConstructor.lean",
+      "sha256": "7d6beba0bbeb9d143b0ab77d11bd21046ef0281ad5f3672710d6af7b2a042a5a",
+      "lines": 56,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineLocalization.lean",
+      "sha256": "f27ae8643751c9c6bc4b593f9cfd0e363a128cd6b4dd511bb584e06552ebf228",
+      "lines": 195,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/AffineUniformCertificate.lean",
+      "sha256": "f6f930ee3f8a015b572e1a30bc2473ff33d81c6e08a213537b2f78639b8aed70",
+      "lines": 44,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/ClampExtension.lean",
+      "sha256": "f05c621cf2381463b732b4893cc28f1bea43aa36435a372430c9cb9dce79d1e5",
+      "lines": 85,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/CoordinateEmbedding.lean",
+      "sha256": "8be1d084cda365a2c47421464bb54ed88d0873a1780b32666dba66428ab1d4cf",
+      "lines": 226,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/FixedMinimum.lean",
+      "sha256": "8d92c474bd77b81ed6936f803a7206d3e7296d583285368666a350ef2aa1bdf8",
+      "lines": 178,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/FixedMinimumEstimates.lean",
+      "sha256": "ce75fd5e3587fdb2b340de183c31dbb44c3385cb51c8049bf9f9d7daafac635a",
+      "lines": 285,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/GlueLocalCertificates.lean",
+      "sha256": "ebb3df9eba1e5a0140b2728831f2d5637c970ff10a6e3826aaf33d70407be7ba",
+      "lines": 67,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/IntervalGluing.lean",
+      "sha256": "df6c63dfdc0eda5af8af4df3aefa7c29c7fb2971eaf2fb613a88e13f060555f9",
+      "lines": 232,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/LayerSequence.lean",
+      "sha256": "bc46456e1af65dcb6bbae52e4685f709c59802cf783a93d0687cdff04b86e605",
+      "lines": 57,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/LocalCertificateRadius.lean",
+      "sha256": "217dd7dd06050b5ac44424934faf2236480adc61593314b1812b1a2bf75f2e77",
+      "lines": 47,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/Model.lean",
+      "sha256": "e112cd8cf9d72dca2e174b81ff313e2685ea05c628a9205107b465740846dbed",
+      "lines": 87,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/MonomialOrder.lean",
+      "sha256": "8d7179c73491db9a294e25337b800e48795eb80637cac2385a1e45bfbcd629eb",
+      "lines": 172,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/PlateauCertificate.lean",
+      "sha256": "37788f21b1b7814c6ce3403b842422830b568cd6dc36a5b319106e7318fcbedb",
+      "lines": 87,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/PlateauGeometry.lean",
+      "sha256": "b4157d5eea79378fceb4cfdda4b13fa749aad501ce108402cf69cd64b7156cfd",
+      "lines": 128,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/PolyhedronGeometry.lean",
+      "sha256": "f8f0ff760cbd4a6ddd652e908b4e497e683f9e77d4a8e543711b606e1180386e",
+      "lines": 159,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/PowerAsymptotics.lean",
+      "sha256": "94d5f1568a4eb76e98684d92842a641ecf8383f6f8ed4ed2b9fcc7511e782079",
+      "lines": 98,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/ReciprocalBox.lean",
+      "sha256": "dacd6a1c60b0ce6989e79d7071f73f420d5d895b58d978cdc284a3da4ed1ca9c",
+      "lines": 74,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/SignTolerance.lean",
+      "sha256": "086f4163aea0468a0ccecb3453e0aac2d8023bbfc4ea79eb08918978564a55c7",
+      "lines": 132,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/SmallParameter.lean",
+      "sha256": "870955937b300eae6fca2fcf72c233e5a95de9d9a112bb871501858f68b4a024",
+      "lines": 163,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/TypeFamily.lean",
+      "sha256": "60055a98637048403a17d99a36bf42e293fe66dfe0db8fc03ec93047f508abce",
+      "lines": 138,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/TypeFamilyCertificate.lean",
+      "sha256": "42be40066e5323e69d3c21669bb58c580c4330f302ffc63de8777d0f7b00cbd5",
+      "lines": 100,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Imported/UniformOffsetDecay.lean",
+      "sha256": "61ae661cc17643d2659941c825399d9275757ca8984dcf8a05909117a6fae4b9",
+      "lines": 102,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/MassActionDynamics.lean",
+      "sha256": "4846e56187553eb85fd943afba7bd71555cfd16ad38ecc98747eb5b830fa617b",
+      "lines": 75,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/MassActionModel.lean",
+      "sha256": "763cf10190ac094758e89aa2b83060a1457bfd9437d1cb2ddfbb4756cf040ae4",
+      "lines": 71,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/MassActionRegularity.lean",
+      "sha256": "7c110eb183d4ab679e31406e97525631ab9e9c6424e0bae341b6ffdc2c9f518e",
+      "lines": 50,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/MeasurablePicard.lean",
+      "sha256": "75bbd9ce24fec3cab58729b1b23f132f1acf811671e60d0c4ca167cfef52ed08",
+      "lines": 112,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/MeasurablePicardIteration.lean",
+      "sha256": "35dee2cc02729691806c8d5e93d07f0c492c6e5c12af62e54425bcba34228693",
+      "lines": 99,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/NetworkDrift.lean",
+      "sha256": "50c8d20505cf8f7f76646009f81a3a41229a908916da7d834121e8912c107dcd",
+      "lines": 111,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/ObservableDynamics.lean",
+      "sha256": "8ef9e437dfdfe14dc295d8b74047eb3317c6bcf17c29a0c1e44c9c716b614719",
+      "lines": 101,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Permanence.lean",
+      "sha256": "067ce5525e61f55ac740b13a78de9f04cdc212eeef6ce97bc6c6abdec6f28d54",
+      "lines": 130,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/PlateauBox.lean",
+      "sha256": "195a7e49741c544b3c9ebe1475d2936f911ea9a4d9074c8f94f04945b8a0b2f1",
+      "lines": 50,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/RateBoxDrift.lean",
+      "sha256": "974ca4f8560501c7d2b1c0bbbf3e2e843bdb58f13dd2dc2afec38e7bc9a9b39e",
+      "lines": 78,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/AlmostEverywherePermanence.lean",
+      "sha256": "556285e3226278bfccf2e06b763fc921e8954f43aae37a7218e3bfccf625faa5",
+      "lines": 65,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/BarrierFamily.lean",
+      "sha256": "060a26f8a2a37c5b4205195a89b2d5e32067ed4a027ea8076cd20bde77dfd2de",
+      "lines": 66,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/BarrierInvariance.lean",
+      "sha256": "6226890da9d947adfd0da06c56a895bf62acff99ce5d6337a873f4831062658c",
+      "lines": 33,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/ClampedMassAction.lean",
+      "sha256": "188f986932e024d29b887f36817bca7abaac1885be5391911eb816b149c58656",
+      "lines": 57,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/ClassPreservation.lean",
+      "sha256": "c52928939c866a209ac05bcd87a7e53f76918051f8512593d20d8fb41739ed63",
+      "lines": 51,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/CompactCoverage.lean",
+      "sha256": "68695694b070970e631a841280ebf77695f397886590c7c410389dca510a3d67",
+      "lines": 59,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/CompactPermanence.lean",
+      "sha256": "3e3fb57e5f3be7a3c15144157a38e0b45d2d9fa69b1201703498b780badf7673",
+      "lines": 103,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/ContinuousDependence.lean",
+      "sha256": "d748bbb2d5e7418f8557f045505b500f3756324d665ea5f23408ec65b3a02edd",
+      "lines": 64,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/DyadicCoverage.lean",
+      "sha256": "681ce07f00073c65bcfae4cedab10b2eda3a58137caa0e1f43f7becfcb5c2186",
+      "lines": 45,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/EndotacticBarrier.lean",
+      "sha256": "fd970e635fc90b58e02f6a34e8c381de71896ad95142870653f3d600363ed62a",
+      "lines": 130,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/EndotacticTrapping.lean",
+      "sha256": "db648ce71f70c4d6bc6478d9c3ea0ed6ff44ce1d8c8500d6d3f46ca284c8cd76",
+      "lines": 99,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/FamilyPlateau.lean",
+      "sha256": "bf9757ad2f15d74562b4fe5f63c6e0930d12c230ad4a38a42854bc242d1577b6",
+      "lines": 154,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/ForwardUniqueness.lean",
+      "sha256": "329d28ad25ef737b800f86028165f0df2ca155e0b4a6eeffbd4c2bcc61d23620",
+      "lines": 64,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/GlobalMassAction.lean",
+      "sha256": "42289c45699e763ced73a1f06b5e295c1acc5b27131f8b64cd7bcbb44dd00df4",
+      "lines": 44,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/MassActionDynamics.lean",
+      "sha256": "fb1bb7f0d3757d3a9c6a121cd0b776ff1937ad849413b61f03d80a2cff435b59",
+      "lines": 78,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/MassActionModel.lean",
+      "sha256": "1878fe6dbfb103628d889ae02200d556acc57af7aabe2f22ff66f9b0847a38b6",
+      "lines": 83,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/Monomial.lean",
+      "sha256": "f9aa0c0940bedee59303acf8f10bd933b93a68bdaed75de6556fd2e6e096be22",
+      "lines": 65,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/NetworkDrift.lean",
+      "sha256": "a068cace4babf6dfc254e3f5381cdb32be5584cd6a14ff45c9822d0f29891991",
+      "lines": 114,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/PlateauBox.lean",
+      "sha256": "4013129bc7d5d8bc083d2413fdcc09781a1a3390dc624b9ee5507ea67d26785c",
+      "lines": 53,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/PositiveRegularity.lean",
+      "sha256": "eced6bdb2ca5d2c697105b38a52363f9a8c7453f2816f7c31818eaf1508d08f3",
+      "lines": 83,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/Real/UniformScaleAbsorption.lean",
+      "sha256": "ad0a971cf98898243c3252dfbab87466428cd9f7fe32a75fba8bd4e314e76682",
+      "lines": 78,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/RecoveryComparison.lean",
+      "sha256": "19218939481ac4da48ae807eebea7fd69ae874519f88f159841e04a6b454e88d",
+      "lines": 381,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/ScaleIteration.lean",
+      "sha256": "8d473e41dafa94abb528f08d12d472399a90401f1282062ed8f12e79e73fabcb",
+      "lines": 64,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/TailFiniteEntryAC.lean",
+      "sha256": "b7bf4d3dea381dc2f0125d925bec1e1f878362e77003ae22335238513840621f",
+      "lines": 48,
+      "proof_holes": 0
+    },
+    {
+      "path": "proofs/EndotacticPermanence/UniformScaleAbsorption.lean",
+      "sha256": "b4d2a5b6f6551277707a8d2ed32a9c8b7e6c419dd678f1aa3c578a8fae6e554e",
+      "lines": 73,
+      "proof_holes": 0
+    },
+    {
+      "path": "Solution.lean",
+      "sha256": "56fe82ec339098b38078749f2061f0ab75b4ae7c801dd45a1581fb1ebe96651b",
+      "lines": 124,
+      "proof_holes": 0
+    },
+    {
+      "path": "comparator.json",
+      "sha256": "f2bb6ef9901379d3641f6bf104e37c32cc49d074d163b4867e746fb5ecf07d7c"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "f4085f5f49cb07b752ed5b171651770205bbbb73ea5445f0e14db04264e8506c"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "ca0f925ee99f999193c649ecb0b5824f95204f019e61b64843da29e2f6589c1e"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "c9cf2b2b339b163139849171ac4e083d16666606aa828b0492e36b228e4e5f16"
+    }
+  ],
+  "scientific_checks": [
+    {
+      "receipt_sha256": "4bcfbabc9574d00cd333b73ec2242ea2735735002ae23208f95562c968101b11",
+      "name": "scientific-real-ae-root-20261008T202336.json",
+      "verified": true,
+      "exit_code": 0,
+      "proof_sha256": "96c27af541b51a90a6b39fc2616de97b6287ff5f848f5897df6f19ee77fdc335",
+      "lean_toolchain": "leanprover/lean4:v4.30.0"
+    },
+    {
+      "receipt_sha256": "a69fd8c41a931f7daebd30a3785f9df518a2a69241b34e963a7677e8ed42baed",
+      "name": "scientific-real-continuous-dependence-20261008T202901.json",
+      "verified": true,
+      "exit_code": 0,
+      "proof_sha256": "b132999475bd13ac7a929f467b85fc0dbc2879e7320b879a71d903526d1b7cdf",
+      "lean_toolchain": "leanprover/lean4:v4.30.0"
+    }
+  ]
+}

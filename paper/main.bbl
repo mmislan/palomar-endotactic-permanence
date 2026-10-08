@@ -1,0 +1,115 @@
+\begin{thebibliography}{10}
+
+\bibitem{Anderson2011}
+David~F. Anderson.
+\newblock A proof of the {G}lobal {A}ttractor {C}onjecture in the single
+  linkage class case.
+\newblock {\em SIAM Journal on Applied Mathematics}, 71(4):1487--1508, 2011.
+
+\bibitem{AngeliDeLeenheerSontag2007}
+David Angeli, Patrick De~Leenheer, and Eduardo~D. Sontag.
+\newblock A {P}etri net approach to the study of persistence in chemical
+  reaction networks.
+\newblock {\em Mathematical Biosciences}, 210(2):598--618, 2007.
+
+\bibitem{BorosHofbauer2020}
+Bal\'azs Boros and Josef Hofbauer.
+\newblock Permanence of weakly reversible mass-action systems with a single
+  linkage class.
+\newblock {\em SIAM Journal on Applied Dynamical Systems}, 19(1):352--365,
+  2020.
+
+\bibitem{CoddingtonLevinson1955}
+Earl~A. Coddington and Norman Levinson.
+\newblock {\em Theory of Ordinary Differential Equations}.
+\newblock McGraw-Hill, New York, 1955.
+
+\bibitem{Craciun2015}
+Gheorghe Craciun.
+\newblock Toric differential inclusions and a proof of the global attractor
+  conjecture.
+\newblock \href{https://arxiv.org/abs/1501.02860v3}{arXiv:1501.02860v3}, 2015.
+\newblock Version 3, revised September 23, 2026.
+
+\bibitem{CraciunDeshpande2020}
+Gheorghe Craciun and Abhishek Deshpande.
+\newblock Endotactic networks and toric differential inclusions.
+\newblock {\em SIAM Journal on Applied Dynamical Systems}, 19(3):1798--1822,
+  2020.
+\newblock \href{https://arxiv.org/abs/1906.08384}{arXiv:1906.08384}.
+
+\bibitem{CraciunNazarovPantea2013}
+Gheorghe Craciun, Fedor Nazarov, and Casian Pantea.
+\newblock Persistence and permanence of mass-action and power-law dynamical
+  systems.
+\newblock {\em SIAM Journal on Applied Mathematics}, 73(1):305--329, 2013.
+\newblock \href{https://arxiv.org/abs/1010.3050}{arXiv:1010.3050}.
+
+\bibitem{Lean4}
+Leonardo de~Moura and Sebastian Ullrich.
+\newblock The {L}ean 4 theorem prover and programming language.
+\newblock In {\em Automated Deduction -- CADE 28}, volume 12699 of {\em Lecture
+  Notes in Computer Science}, pages 625--635, 2021.
+
+\bibitem{Feinberg1972}
+Martin Feinberg.
+\newblock Complex balancing in general kinetic systems.
+\newblock {\em Archive for Rational Mechanics and Analysis}, 49:187--194, 1972.
+
+\bibitem{Filippov1988}
+A.~F. Filippov.
+\newblock {\em Differential Equations with Discontinuous Righthand Sides}.
+\newblock Kluwer, Dordrecht, 1988.
+
+\bibitem{GopalkrishnanMillerShiu2014}
+Manoj Gopalkrishnan, Ezra Miller, and Anne Shiu.
+\newblock A geometric approach to the {G}lobal {A}ttractor {C}onjecture.
+\newblock {\em SIAM Journal on Applied Dynamical Systems}, 13(2):758--797,
+  2014.
+\newblock \href{https://arxiv.org/abs/1305.5303}{arXiv:1305.5303}.
+
+\bibitem{HornJackson1972}
+F.~Horn and R.~Jackson.
+\newblock General mass action kinetics.
+\newblock {\em Archive for Rational Mechanics and Analysis}, 47:81--116, 1972.
+
+\bibitem{JohnstonPanteaDonnell2016}
+Matthew~D. Johnston, Casian Pantea, and Pete Donnell.
+\newblock A computational approach to persistence, permanence, and
+  endotacticity of biochemical reaction systems.
+\newblock {\em Journal of Mathematical Biology}, 72(1--2):467--498, 2016.
+\newblock \href{https://arxiv.org/abs/1412.4662}{arXiv:1412.4662}.
+
+\bibitem{OpenAI2026Boundedness}
+{OpenAI}.
+\newblock Boundedness and persistence of weakly reversible mass-action systems.
+\newblock OpenAI Math Release preprint, September 25, 2026. Paper and Lean
+  sources in the public repository \url{https://github.com/openai/math} at
+  commit \texttt{adc7f1241b42e322a6451854ab7e4b4c146bf78a}:
+  \url{https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Boundedness-and-persistence-of-weakly-reversible-mass-action-systems-September-25-2026}
+  and
+  \url{https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/MassAction},
+  2026.
+
+\bibitem{OpenAI2026Uniform}
+{OpenAI}.
+\newblock Uniform permanence in weakly reversible mass-action systems.
+\newblock OpenAI Math Release preprint, October 5, 2026. Public repository
+  \url{https://github.com/openai/math} at commit
+  \texttt{adc7f1241b42e322a6451854ab7e4b4c146bf78a}:
+  \url{https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Uniform-Permanence-in-Weakly-Reversible-Mass-Action-Systems-October-5-2026},
+  2026.
+
+\bibitem{Pantea2012}
+Casian Pantea.
+\newblock On the persistence and global stability of mass-action systems.
+\newblock {\em SIAM Journal on Mathematical Analysis}, 44(3):1636--1673, 2012.
+\newblock \href{https://arxiv.org/abs/1103.0603}{arXiv:1103.0603}.
+
+\bibitem{Mathlib2020}
+{The mathlib Community}.
+\newblock The {L}ean mathematical library.
+\newblock In {\em Proceedings of the 9th ACM SIGPLAN International Conference
+  on Certified Programs and Proofs (CPP 2020)}, pages 367--381, 2020.
+
+\end{thebibliography}
